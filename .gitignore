@@ -1,0 +1,25 @@
+*.swp
+package-lock.json
+__pycache__
+.pytest_cache
+.venv
+env
+*.egg-info
+.DS_Store
+.vscode
+venv
+newvenv 
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+cdk.context.json
+cdksynths
+local-dev
+
+# Webpack distribution files
+node_modules
+main.js*
+
+
+#cdk-nag results
+cdk.out
